@@ -53,3 +53,10 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# --- 3DS Specific ---
+*.3dsx          # El ejecutable de Homebrew (Homebrew Launcher)
+*.smdh          # Metadatos del icono y descripción
+*.cia           # El instalador para el menú de la consola
+*.vsh           # Shaders compilados para la GPU PICA200
+build/          # Carpeta donde se guardan los objetos temporales
